@@ -8,7 +8,7 @@ These instructions will guide you on how to clone the repository to your local m
 
 ### Prerequisites
 
-Ensure that you have Git installed on your machine. You can download and install Git from [here](https://git-scm.com/).
+Ensure that you have Git and Node.js installed on your machine. You can download and install them  from [here](https://git-scm.com/) and [here](https://nodejs.org/en).
 
 ### Clone the Repository
 
@@ -25,10 +25,10 @@ cd MS-Word ->
 npm i ->
 npm run dev ->
 ```
-Then open "http://localhost:5173/" on your browser.
-### To start FRONTEND
+Then open [http://localhost:5173/](http://localhost:5173/) on your browser.
+### To start BACKEND
+Run these commands after you have opened the "MS-Word" in a terminal or command prompt.
 ```bash
-cd MS-Word ->
 cd .Backend ->
 npm i ->
 nodemon -> 
