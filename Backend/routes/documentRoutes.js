@@ -120,7 +120,7 @@ router.delete("/deleteDocument/:id", async (req, res) => {
     // Delete the document
     let deletedDoc = await Document.findByIdAndDelete(documentId);
 
-    let documents = await Document.find();
+    let documents = await Document.find({ owner: userId });
     success = true;
     return res
       .status(200)
