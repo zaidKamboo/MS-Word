@@ -1,4 +1,4 @@
-# How to run this applicatin ?
+# How to run this application ?
 
 MS Word colloborative editor using MERN stack uses MongoDB,Express js, React JS and Node js for smooth user interaction and easy data flow along the whole application.
 
